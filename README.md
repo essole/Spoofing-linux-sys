@@ -7,6 +7,7 @@
 
 
 **Dnsspoofing script usage**
+
 $ python Dns_spoof.py -s @Ipstl -d @IP_target -f dic.txt
 
 * Ipstl here is the spoofed IP address here the DNS server IP address
@@ -18,6 +19,7 @@ note that this file should be edited like: domain name : Ip address
 I would like to mentionned that I could write only the class that perform the DNSspoofing but I just wanted to write a script that can perform all the steps of a DNSspoofing
 
 **ARPspoofing script usage**
+
 $ python Arspspoofing.py -s @Ipstl -d @Ip_target
 
 Note that these two scripts are written only for educational purpose
